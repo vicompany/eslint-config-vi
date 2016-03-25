@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-vi",
+  "version": "0.1.0",
+  "description": "ESLint shareable config used by VI Company",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vicompany/eslint-config-vi.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "VI Company",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "vi-company"
+  ]
+}
