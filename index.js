@@ -207,7 +207,7 @@ module.exports = {
 		'arrow-parens': [2, 'as-needed'],
 		'arrow-spacing': [2, { before: true, after: true }],
 		'constructor-super': 2,
-		'generator-star-spacing': [2, 'both'],
+		'generator-star-spacing': [2, 'after'],
 		'no-class-assign': 2,
 		'no-confusing-arrow': 2,
 		'no-const-assign': 2,
@@ -226,6 +226,6 @@ module.exports = {
 		'prefer-template': 2,
 		'require-yield': 2,
 		'template-curly-spacing': 2,
-		'yield-star-spacing': [2, 'before']
+		'yield-star-spacing': [2, 'after']
 	}
 };
