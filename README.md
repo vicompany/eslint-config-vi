@@ -6,7 +6,7 @@ This package provides a [ESLint shareable config](http://eslint.org/docs/develop
 
 ## Why another config?
 
-Our config is based on the Airbnb config, but we don't agree on everything and it's easier to maintain our own config.
+Our config is based on the [Airbnb config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb), but we don't agree on everything and it's easier to maintain our own config.
 
 ## Installation
 
