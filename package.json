@@ -8,7 +8,7 @@
     "url": "git://github.com/vicompany/eslint-config-vi.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint test/*.js"
   },
   "author": "VI Company",
   "license": "MIT",
@@ -16,5 +16,11 @@
     "eslint",
     "eslintconfig",
     "vi-company"
-  ]
+  ],
+  "devDependencies": {
+    "eslint": "^2.5.3"
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
+  }
 }
