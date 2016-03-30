@@ -8,7 +8,9 @@
     "url": "git://github.com/vicompany/eslint-config-vi.git"
   },
   "scripts": {
-    "test": "eslint test/*.js"
+    "test": "eslint test/*.js",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags"
   },
   "author": "VI Company",
   "license": "MIT",
