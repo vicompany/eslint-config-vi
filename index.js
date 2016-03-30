@@ -179,7 +179,7 @@ module.exports = {
 		'no-spaced-func': 2,
 		'no-ternary': 0,
 		'no-trailing-spaces': 2,
-		'no-underscore-dangle': 2,
+		'no-underscore-dangle': [2, { allowAfterThis: true }],
 		'no-unneeded-ternary': 2,
 		'no-whitespace-before-property': 2,
 		'object-curly-spacing': [2, 'always'],
