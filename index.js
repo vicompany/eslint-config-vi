@@ -14,7 +14,7 @@ module.exports = {
 	rules: {
 		// ECMAScript 6
 		'arrow-body-style': [2, 'as-needed'],
-		'arrow-parens': [2, 'as-needed'],
+		'arrow-parens': [2, 'always'],
 		'arrow-spacing': [2, { before: true, after: true }],
 		'constructor-super': 2,
 		'generator-star-spacing': [2, 'after'],
