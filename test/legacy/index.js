@@ -1,8 +1,8 @@
 (function() {
 	'use strict';
 
-	var a = 'bas',
-		b = 'yolo';
+	var a = 'foo',
+		b = 'bar';
 
 	return a + b;
 }());
