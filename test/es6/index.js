@@ -27,13 +27,13 @@ setTimeout(() => {
 	people.doug.loves();
 }, 500);
 
-document.body.addEventListener('click', e => {
+document.body.addEventListener('click', (e) => {
 	e.currentTarget.innerText = answer;
 });
 
 // Rest params and spread operator
 function greet(say, ...users) {
-	users.forEach(u => say + u.name);
+	users.forEach((u) => say + u.name);
 }
 
 greet('Hi ', john, doug);
