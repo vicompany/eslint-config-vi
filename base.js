@@ -2,8 +2,7 @@
 
 module.exports = {
 	env: {
-		browser: true,
-		node: true
+		browser: true
 	},
 	rules: {
 		// Possible Errors
@@ -116,18 +115,6 @@ module.exports = {
 		'no-undefined': 2,
 		'no-unused-vars': 2,
 		'no-use-before-define': 2,
-
-		// Node.js
-		'callback-return': [2, ['cb', 'callback', 'next', 'done']],
-		'global-require': 2,
-		'handle-callback-err': 2,
-		'no-mixed-requires': 0,
-		'no-new-require': 2,
-		'no-path-concat': 2,
-		'no-process-env': 2,
-		'no-process-exit': 2,
-		'no-restricted-modules': 0,
-		'no-sync': 1,
 
 		// Stylistic Issues
 		'array-bracket-spacing': [2, 'never'],
