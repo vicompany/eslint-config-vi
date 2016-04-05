@@ -8,6 +8,9 @@ module.exports = {
 		browser: false,
 		node: true
 	},
+	parserOptions: {
+		sourceType: 'script'
+	},
 	rules: {
 		// Node.js
 		'callback-return': [2, ['cb', 'callback', 'next', 'done']],
