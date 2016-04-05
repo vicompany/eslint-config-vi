@@ -169,7 +169,7 @@ module.exports = {
 		'one-var-declaration-per-line': [2, 'always'],
 		'operator-assignment': [2, 'always'],
 		'operator-linebreak': 2,
-		'padded-blocks': [2, 'never'],
+		'padded-blocks': [2, { blocks: 'never', switches: 'never', classes: 'never' }],
 		'quote-props': [2, 'consistent-as-needed'],
 		'quotes': [2, 'single'],
 		'require-jsdoc': 0,
