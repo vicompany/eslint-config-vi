@@ -1,6 +1,7 @@
 /* eslint-env amd */
 
 define(function() {
+
 	'use strict';
 
 	function Person(name) {
