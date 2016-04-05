@@ -24,8 +24,5 @@
   },
   "peerDependencies": {
     "eslint": ">=2.6.0"
-  },
-  "eslintConfig": {
-    "extends": "./index.js"
   }
 }
