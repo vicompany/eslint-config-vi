@@ -137,7 +137,7 @@ module.exports = {
 		'linebreak-style': 0,
 		'lines-around-comment': 0,
 		'max-depth': [2, 4],
-		'max-len': [2, 100, 2, { ignoreUrls: true, ignoreComments: false }],
+		'max-len': [2, 100, 2, { ignoreUrls: true, ignoreComments: true }],
 		'max-nested-callbacks': [1, 4],
 		'max-params': [2, 5],
 		'max-statements': 0,
