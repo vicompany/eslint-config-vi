@@ -2,7 +2,14 @@
 	'use strict';
 
 	var a = 'foo',
-		b = 'bar';
+		b = 'bar',
+		c = 'true',
+		d;
 
-	return a + b;
+
+	try {
+		d = JSON.parse(c);
+	} catch (e) {}
+
+	return d ? a + b : c;
 }());
