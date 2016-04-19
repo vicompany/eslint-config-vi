@@ -20,9 +20,9 @@
     "vi-company"
   ],
   "devDependencies": {
-    "eslint": "^2.7.0"
+    "eslint": "^2.8.0"
   },
   "peerDependencies": {
-    "eslint": ">=2.6.0"
+    "eslint": ">=2.8.0"
   }
 }
