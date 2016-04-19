@@ -13,15 +13,15 @@ module.exports = {
 	},
 	rules: {
 		// Node.js
-		'callback-return': [2, ['cb', 'callback', 'next', 'done']],
-		'global-require': 2,
-		'handle-callback-err': 2,
-		'no-mixed-requires': 0,
-		'no-new-require': 2,
-		'no-path-concat': 2,
-		'no-process-env': 2,
-		'no-process-exit': 2,
-		'no-restricted-modules': 0,
-		'no-sync': 1
+		'callback-return': ['error', ['cb', 'callback', 'next', 'done']],
+		'global-require': 'error',
+		'handle-callback-err': 'error',
+		'no-mixed-requires': 'off',
+		'no-new-require': 'error',
+		'no-path-concat': 'error',
+		'no-process-env': 'error',
+		'no-process-exit': 'error',
+		'no-restricted-modules': 'off',
+		'no-sync': 'warn'
 	}
 };
