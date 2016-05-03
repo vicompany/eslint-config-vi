@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vi",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "ESLint shareable config used by VI Company",
   "main": "index.js",
   "repository": {
