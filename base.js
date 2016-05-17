@@ -166,6 +166,7 @@ module.exports = {
 		'no-unneeded-ternary': 'error',
 		'no-whitespace-before-property': 'error',
 		'object-curly-spacing': ['error', 'always'],
+		'object-property-newline': 'error',
 		'one-var': ['error', { var: 'always', let: 'never', const: 'never' }],
 		'one-var-declaration-per-line': ['error', 'always'],
 		'operator-assignment': ['error', 'always'],
