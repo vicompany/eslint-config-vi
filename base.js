@@ -114,7 +114,7 @@ module.exports = {
 		'no-undef': 'error',
 		'no-undef-init': 'error',
 		'no-undefined': 'error',
-		'no-unused-vars': 'error',
+		'no-unused-vars': ['error', { args: 'none' }],
 		'no-use-before-define': 'error',
 
 		// Stylistic Issues
