@@ -28,7 +28,7 @@ setTimeout(() => {
 }, 500);
 
 document.body.addEventListener('click', (e) => {
-	e.currentTarget.innerText = answer;
+	document.body.innerText = answer;
 });
 
 // Rest params and spread operator
