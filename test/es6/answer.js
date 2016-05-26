@@ -1,5 +1,7 @@
 const answer = (function() {
-	let value = 42;
+	let value = 41;
+
+	value = value + 1;
 
 	return value;
 }());

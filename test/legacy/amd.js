@@ -19,7 +19,7 @@ define(function() {
 		walk: function(speed) {
 			speed = speed || 5;
 
-			this.moving += speed;
+			this.moving = this.moving + speed;
 		}
 	};
 
