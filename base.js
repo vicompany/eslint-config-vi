@@ -168,7 +168,7 @@ module.exports = {
 		'no-whitespace-before-property': 'error',
 		'object-curly-newline': ['error', 'always'],
 		'object-curly-spacing': ['error', 'always'],
-		'object-property-newline': 'error',
+		'object-property-newline': 'off',
 		'one-var': ['error', { var: 'always', let: 'never', const: 'never' }],
 		'one-var-declaration-per-line': ['error', 'always'],
 		'operator-assignment': 'off',
