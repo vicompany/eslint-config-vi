@@ -4,12 +4,16 @@
 	var a = 'foo',
 		b = 'bar',
 		c = 'true',
-		d;
-
+		d = {
+			another: {
+				nested: 'object'
+			}
+		},
+		e;
 
 	try {
-		d = JSON.parse(c);
-	} catch (e) {}
+		e = JSON.parse(c);
+	} catch (error) {}
 
-	return d ? a + b : c;
+	return e ? a + b : d.another.nested;
 }());
