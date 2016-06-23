@@ -20,6 +20,6 @@
     "vi-company"
   ],
   "devDependencies": {
-    "eslint": "^2.12.0"
+    "eslint": "^2.13.1"
   }
 }
