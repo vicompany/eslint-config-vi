@@ -1,4 +1,5 @@
 (function() {
+
 	'use strict';
 
 	var a = 'foo',
@@ -16,4 +17,5 @@
 	} catch (error) {}
 
 	return e ? a + b : d.another.nested;
+
 }());
