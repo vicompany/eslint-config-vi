@@ -3,7 +3,7 @@
 var path = require('path');
 
 module.exports = {
-	extends: path.join(__dirname, 'index.js'),
+	extends: path.join(__dirname, 'es6.js'),
 	env: {
 		browser: false,
 		node: true

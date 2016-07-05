@@ -1,7 +1,9 @@
 'use strict';
 
+var path = require('path');
+
 module.exports = {
-	extends: 'vi/config/defaults',
+	extends: path.join(__dirname, 'defaults.js'),
 	env: {
 		es6: true
 	},

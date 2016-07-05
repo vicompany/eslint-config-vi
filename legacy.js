@@ -1,10 +1,3 @@
 'use strict';
 
-var path = require('path');
-
-module.exports = {
-	extends: path.join(__dirname, 'base.js'),
-	rules: {
-		'padded-blocks': 'off'
-	}
-};
+module.exports = require('./config/legacy');
