@@ -19,6 +19,9 @@
     "eslintconfig",
     "vi-company"
   ],
+  "engines": {
+    "node": ">=4"
+  },
   "devDependencies": {
     "eslint": "^3.0.0"
   }
