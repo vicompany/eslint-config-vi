@@ -174,7 +174,7 @@ module.exports = {
 		'one-var': ['error', { var: 'always', let: 'never', const: 'never' }],
 		'one-var-declaration-per-line': ['error', 'always'],
 		'operator-assignment': 'off',
-		'operator-linebreak': ['error', 'after'],
+		'operator-linebreak': ['error', 'after', { overrides: { '?': 'before', ':': 'before' } }],
 		'padded-blocks': ['error', { blocks: 'never', switches: 'never', classes: 'never' }],
 		'quote-props': ['error', 'consistent-as-needed'],
 		'quotes': ['error', 'single'],

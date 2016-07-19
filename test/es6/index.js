@@ -41,3 +41,12 @@ greet('Hi ', john, doug);
 let numbers = [1, 5, 8, 3, 2, 7];
 
 Math.max(...numbers);
+
+// Ternary operators
+let t1 = john.age === 32 ? 'yes' : 'no';
+let t2 = doug.age === 61
+	? 'yes, but I am not sure'
+	: 'no, definitely not';
+
+greet(t1);
+greet(t2);
