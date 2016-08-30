@@ -24,6 +24,7 @@ module.exports = {
 		'no-dupe-class-members': 'error',
 		'no-new-symbol': 'error',
 		'no-restricted-imports': 'off',
+		'no-template-curly-in-string': 'error',
 		'no-this-before-super': 'error',
 		'no-useless-computed-key': 'error',
 		'no-useless-constructor': 'error',
