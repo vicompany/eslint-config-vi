@@ -14,10 +14,10 @@ class Person {
 			return `Whooohoo, where\'s the ${config.drinks[0]}?!?!`;
 		}
 
-		return this.bummer();
+		return Person.bummer();
 	}
 
-	bummer() {
+	static bummer() {
 		return 'Bummer, dude!';
 	}
 

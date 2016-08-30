@@ -37,6 +37,9 @@ module.exports = {
 		'prefer-spread': 'error',
 		'prefer-template': 'error',
 		'require-yield': 'error',
+		'rest-spread-spacing': ['error', 'never'],
+		'sort-imports': 'off',
+		'symbol-description': 'error',
 		'template-curly-spacing': 'error',
 		'yield-star-spacing': ['error', 'after']
 	}
