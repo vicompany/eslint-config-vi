@@ -22,6 +22,7 @@ module.exports = {
 		'no-process-env': 'error',
 		'no-process-exit': 'error',
 		'no-restricted-modules': 'off',
+		'no-restricted-properties': 'off',
 		'no-sync': 'warn'
 	}
 };
