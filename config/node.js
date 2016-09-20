@@ -1,6 +1,4 @@
-'use strict';
-
-var path = require('path');
+const path = require('path');
 
 module.exports = {
 	extends: path.join(__dirname, 'es6.js'),
@@ -9,7 +7,10 @@ module.exports = {
 		node: true
 	},
 	parserOptions: {
-		sourceType: 'script'
+		sourceType: 'script',
+		ecmaFeatures: {
+			impliedStrict: true
+		}
 	},
 	rules: {
 		// Node.js

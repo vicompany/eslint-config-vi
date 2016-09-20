@@ -1,5 +1,3 @@
-'use strict';
-
 module.exports = {
 	env: {
 		browser: true
@@ -142,7 +140,7 @@ module.exports = {
 		'lines-around-comment': 'off',
 		'lines-around-directive': ['error', 'always'],
 		'max-depth': ['error', 4],
-		'max-len': ['error', 100, 2, { ignoreUrls: true, ignoreComments: true }],
+		'max-len': ['error', 80, 4, { ignoreComments: true, ignoreUrls: true, ignoreStrings: true, ignoreTemplateLiterals: true }],
 		'max-lines': 'off',
 		'max-nested-callbacks': ['warn', 4],
 		'max-params': ['error', 5],
@@ -174,7 +172,7 @@ module.exports = {
 		'no-whitespace-before-property': 'error',
 		'object-curly-newline': 'off',
 		'object-curly-spacing': ['error', 'always'],
-		'object-property-newline': 'error',
+		'object-property-newline': ['error', { allowMultiplePropertiesPerLine: true }],
 		'one-var': ['error', { var: 'always', let: 'never', const: 'never' }],
 		'one-var-declaration-per-line': ['error', 'always'],
 		'operator-assignment': 'off',
