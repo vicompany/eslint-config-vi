@@ -135,7 +135,7 @@ module.exports = {
 		'jsx-quotes': ['error', 'prefer-double'],
 		'key-spacing': ['error', { beforeColon: false, afterColon: true }],
 		'keyword-spacing': 'error',
-		'line-comment-position': ['error', { position: 'above' }],
+		'line-comment-position': 'off',
 		'linebreak-style': 'off',
 		'lines-around-comment': 'off',
 		'lines-around-directive': ['error', 'always'],

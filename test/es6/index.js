@@ -33,7 +33,7 @@ document.body.addEventListener('click', (e) => {
 
 // Rest params and spread operator
 function greet(say, ...users) {
-	users.forEach(u => say + u.name);
+	users.forEach(u => say + u.name); // Arrow parens are optional when there are no braces
 }
 
 greet('Hi ', john, doug);
