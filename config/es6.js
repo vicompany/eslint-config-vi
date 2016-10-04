@@ -12,7 +12,7 @@ module.exports = {
 	rules: {
 		// ECMAScript 6
 		'arrow-body-style': ['error', 'as-needed'],
-		'arrow-parens': ['error', 'always'],
+		'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
 		'arrow-spacing': ['error', { before: true, after: true }],
 		'constructor-super': 'error',
 		'generator-star-spacing': ['error', 'after'],
