@@ -10,24 +10,13 @@ We love the [Airbnb config](https://github.com/airbnb/javascript/tree/master/pac
 
 ## Installation
 
-To make use of this config, install ESLint (>= 2.6) and this package as a development dependency of your project:
+To make use of this config, install ESLint and this package as a development dependency of your project:
 
     npm install eslint eslint-config-vi --save-dev
 
 ## Usage
 
-Add some ESLint config to your `package.json`:
-
-```json
-{
-  "name": "my-awesome-project",
-  "eslintConfig": {
-    "extends": "vi"
-  }
-}
-```
-
-Or create a [`.eslintrc.*`](http://eslint.org/docs/user-guide/configuring#configuration-file-formats) config file:
+Create a [`.eslintrc.*`](http://eslint.org/docs/user-guide/configuring#configuration-file-formats) config file:
 
 ### .eslintrc.js
 ```js
@@ -43,9 +32,24 @@ module.exports = {
 }
 ```
 
-## Legacy code
+Or add the ESLint config to your `package.json`:
 
-The default is ES2015, but if you need to support legacy code, you can use the [`vi/legacy`](legacy.js) config:
+```json
+{
+  "name": "my-awesome-project",
+  "eslintConfig": {
+    "extends": "vi"
+  }
+}
+```
+
+## Configuration
+
+The default configuration supports ES2015 (ES6) code.
+
+### Legacy code
+
+If you need to support legacy code, you can use the [`vi/legacy`](legacy.js) config:
 
 ```json
 {
@@ -53,7 +57,7 @@ The default is ES2015, but if you need to support legacy code, you can use the [
 }
 ```
 
-## Node.js
+### Node.js
 
 For Node.js development you can use the [`vi/node`](node.js) config:
 
@@ -62,6 +66,10 @@ For Node.js development you can use the [`vi/node`](node.js) config:
   "extends": "vi/node"
 }
 ```
+
+## Changelog
+
+Read the [Changelog](CHANGELOG.md)
 
 ## License
 
