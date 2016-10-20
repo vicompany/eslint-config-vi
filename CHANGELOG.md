@@ -9,7 +9,7 @@
 ## 2.2.0 (2016-10-6)
 
 - Allow inline comments: `'line-comment-position': 'off'`
-- Arrow parens when needed (per spec) and when braces are used: `'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }]`
+- Use ES6 arrow parens when needed (per spec) and when braces are used: `'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }]`
 
 ## 2.1.0 (2016-10-4)
 
