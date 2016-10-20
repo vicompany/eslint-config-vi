@@ -126,6 +126,7 @@ module.exports = {
 		'computed-property-spacing': ['error', 'never'],
 		'eol-last': 'error',
 		'func-call-spacing': ['error', 'never'],
+		'func-name-matching': ['error', { includeCommonJSModuleExports: false }],
 		'func-names': 'off',
 		'func-style': ['error', 'declaration', { allowArrowFunctions: true }],
 		'id-blacklist': 'warn',
@@ -186,7 +187,11 @@ module.exports = {
 		'sort-keys': 'off',
 		'sort-vars': 'off',
 		'space-before-blocks': ['error', 'always'],
-		'space-before-function-paren': ['error', 'never'],
+		'space-before-function-paren': ['error', {
+			anonymous: 'never',
+			named: 'never',
+			asyncArrow: 'ignore'
+		}],
 		'space-in-parens': ['error', 'never'],
 		'space-infix-ops': 'error',
 		'space-unary-ops': 'error',

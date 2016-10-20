@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.2.1 (2016-10-20)
+
+- ESLint 3.8.1
+- Require function names to match the variable which they are assigned to: `'func-name-matching': ['error', { includeCommonJSModuleExports: false }]`.
+- Added option `asyncArrow: 'ignore'` to the `space-before-function-paren` rule.
+
 ## 2.2.0 (2016-10-6)
 
 - Allow inline comments: `'line-comment-position': 'off'`
