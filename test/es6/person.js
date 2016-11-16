@@ -1,6 +1,6 @@
 const config = {
 	'drinks': ['beer', 'gin', 'tequila'],
-	'drinking-age': 21
+	'drinking-age': 21,
 };
 
 class Person {

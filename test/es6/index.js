@@ -8,7 +8,7 @@ const doug = new Developer('Douglas Crockford', 61, 'JavaScript');
 const people = {
 	john,
 	doug,
-	'john-doe': new Person('John Doe', 80)
+	'john-doe': new Person('John Doe', 80),
 };
 
 // Switch cases, fall through and indenting

@@ -4,7 +4,7 @@ module.exports = {
 	},
 	rules: {
 		// Possible Errors
-		'comma-dangle': ['error', 'never'],
+		'comma-dangle': ['error', 'always-multiline'],
 		'no-cond-assign': 'error',
 		'no-console': 'warn',
 		'no-constant-condition': 'error',
