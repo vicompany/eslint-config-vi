@@ -1,7 +1,7 @@
-const path = require('path');
-
 module.exports = {
-	extends: path.join(__dirname, 'es6.js'),
+	extends: [
+		'./es7.js'
+	].map(require.resolve),
 	env: {
 		browser: false,
 		node: true,
