@@ -1,6 +1,6 @@
 module.exports = {
 	env: {
-		browser: true
+		browser: true,
 	},
 	rules: {
 		// Possible Errors
@@ -187,15 +187,11 @@ module.exports = {
 		'sort-keys': 'off',
 		'sort-vars': 'off',
 		'space-before-blocks': ['error', 'always'],
-		'space-before-function-paren': ['error', {
-			anonymous: 'never',
-			named: 'never',
-			asyncArrow: 'ignore'
-		}],
+		'space-before-function-paren': ['error', { anonymous: 'never', named: 'never', asyncArrow: 'ignore' }],
 		'space-in-parens': ['error', 'never'],
 		'space-infix-ops': 'error',
 		'space-unary-ops': 'error',
 		'spaced-comment': ['error', 'always', { markers: ['!'] }],
-		'wrap-regex': 'off'
-	}
+		'wrap-regex': 'off',
+	},
 };

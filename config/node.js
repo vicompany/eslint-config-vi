@@ -4,13 +4,13 @@ module.exports = {
 	extends: path.join(__dirname, 'es6.js'),
 	env: {
 		browser: false,
-		node: true
+		node: true,
 	},
 	parserOptions: {
 		sourceType: 'script',
 		ecmaFeatures: {
-			impliedStrict: true
-		}
+			impliedStrict: true,
+		},
 	},
 	rules: {
 		// Node.js
@@ -24,6 +24,6 @@ module.exports = {
 		'no-process-exit': 'error',
 		'no-restricted-modules': 'off',
 		'no-restricted-properties': 'off',
-		'no-sync': 'warn'
-	}
+		'no-sync': 'warn',
+	},
 };
