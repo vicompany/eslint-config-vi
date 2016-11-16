@@ -11,7 +11,7 @@ class Person {
 
 	party() {
 		if (this.isAllowedToDrink) {
-			return `Whooohoo, where\'s the ${config.drinks[0]}?!?!`;
+			return `Whooohoo, where's the ${config.drinks[0]}?!?!`;
 		}
 
 		return Person.bummer();

@@ -8,6 +8,7 @@
     "url": "git://github.com/vicompany/eslint-config-vi.git"
   },
   "scripts": {
+    "find-rules": "eslint-find-rules -u -n ./node.js",
     "test": "eslint test/**/*.js",
     "preversion": "npm test",
     "postversion": "git push && git push --tags"
@@ -23,7 +24,8 @@
     "node": ">=4"
   },
   "devDependencies": {
-    "eslint": "^3.10.2"
+    "eslint": "^3.10.2",
+    "eslint-find-rules": "^1.14.3"
   },
   "peerDependencies": {
     "eslint": ">=3"

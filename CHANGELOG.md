@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.0.1 (2016-11-16)
+- Added missing rules.
+
 ## 3.0.0 (2016-11-16)
 - ESLint 3.10.2
 - Enable rule `prefer-const`.
