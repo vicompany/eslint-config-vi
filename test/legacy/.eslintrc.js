@@ -1,6 +1,6 @@
-var path = require('path');
-
 module.exports = {
-	extends: path.join(__dirname, '../../legacy.js'),
+	extends: [
+		'../../legacy.js'
+	].map(require.resolve),
 	root: true
 };
