@@ -1,3 +1,1 @@
-'use strict';
-
-module.exports = require('./config/es6');
+module.exports = require('./config/es7');

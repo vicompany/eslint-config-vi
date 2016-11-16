@@ -7,8 +7,8 @@
 		c = 'true',
 		d = {
 			another: {
-				nested: 'object'
-			}
+				nested: 'thing',
+			},
 		},
 		e;
 

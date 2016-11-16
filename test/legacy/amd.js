@@ -20,7 +20,7 @@ define(function() {
 			speed = speed || 5;
 
 			this.moving += speed;
-		}
+		},
 	};
 
 	return Person;

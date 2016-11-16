@@ -1,13 +1,13 @@
-const path = require('path');
-
 module.exports = {
-	extends: path.join(__dirname, 'defaults.js'),
+	extends: [
+		'./defaults.js'
+	].map(require.resolve),
 	env: {
-		es6: true
+		es6: true,
 	},
 	parserOptions: {
-		ecmaVersion: 6,
-		sourceType: 'module'
+		ecmaVersion: 7,
+		sourceType: 'module',
 	},
 	rules: {
 		// ECMAScript 6
@@ -29,7 +29,7 @@ module.exports = {
 		'no-var': 'error',
 		'object-shorthand': ['error', 'always'],
 		'prefer-arrow-callback': 'error',
-		'prefer-const': 'off',
+		'prefer-const': ['error', { destructuring: 'any', ignoreReadBeforeAssign: false }],
 		'prefer-numeric-literals': 'error',
 		'prefer-reflect': 'off',
 		'prefer-rest-params': 'error',
@@ -40,6 +40,6 @@ module.exports = {
 		'sort-imports': 'off',
 		'symbol-description': 'error',
 		'template-curly-spacing': 'error',
-		'yield-star-spacing': ['error', 'after']
-	}
+		'yield-star-spacing': ['error', 'after'],
+	},
 };

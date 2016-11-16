@@ -2,13 +2,13 @@ import answer from './answer';
 import Person from './person';
 import Developer from './developer';
 
-let john = new Person('John Resig', 32);
-let doug = new Developer('Douglas Crockford', 61, 'JavaScript');
+const john = new Person('John Resig', 32);
+const doug = new Developer('Douglas Crockford', 61, 'JavaScript');
 
-let people = {
+const people = {
 	john,
 	doug,
-	'john-doe': new Person('John Doe', 80)
+	'john-doe': new Person('John Doe', 80),
 };
 
 // Switch cases, fall through and indenting
@@ -38,13 +38,13 @@ function greet(say, ...users) {
 
 greet('Hi ', john, doug);
 
-let numbers = [1, 5, 8, 3, 2, 7];
+const numbers = [1, 5, 8, 3, 2, 7];
 
 Math.max(...numbers);
 
 // Ternary operators
-let t1 = john.age === 32 ? 'yes' : 'no';
-let t2 = doug.age === 61
+const t1 = john.age === 32 ? 'yes' : 'no';
+const t2 = doug.age === 61
 	? 'yes, but I am not sure'
 	: 'no, definitely not';
 
