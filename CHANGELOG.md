@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.0.0 (2016-11-16)
+- ESLint 3.10.2
+- Enable rule `prefer-const`.
+- Update rule `comma-dangle` to `always-multiline`.
+- Switch to ECMAScript 2016/ES7.
+
 ## 2.2.2 (2016-11-04)
 
 - ESLint 3.9.1
