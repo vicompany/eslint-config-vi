@@ -23,9 +23,9 @@
     "node": ">=4"
   },
   "devDependencies": {
-    "eslint": "^3.9.1"
+    "eslint": "^3.10.2"
   },
   "peerDependencies": {
-    "eslint": "^3.9.1"
+    "eslint": ">=3"
   }
 }
