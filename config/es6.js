@@ -29,7 +29,10 @@ module.exports = {
 		'no-var': 'error',
 		'object-shorthand': ['error', 'always'],
 		'prefer-arrow-callback': 'error',
-		'prefer-const': 'off',
+		'prefer-const': ['error', {
+			destructuring: 'any',
+			ignoreReadBeforeAssign: false
+		}],
 		'prefer-numeric-literals': 'error',
 		'prefer-reflect': 'off',
 		'prefer-rest-params': 'error',
