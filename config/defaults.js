@@ -127,7 +127,7 @@ module.exports = {
 		'block-spacing': 'error',
 		'brace-style': ['error', '1tbs', { allowSingleLine: false }],
 		'camelcase': ['error', { properties: 'always' }],
-		'capitalized-comments': ['error', 'always'],
+		'capitalized-comments': 'off',
 		'comma-dangle': ['error', 'always-multiline'],
 		'comma-spacing': ['error', { before: false, after: true }],
 		'comma-style': ['error', 'last'],
