@@ -1,6 +1,6 @@
 # Changelog
 
-## 3.2.0 (2016-12-15)
+## 3.1.0 (2016-12-15)
 - ESLint 3.12.2
 - Add rule `'no-await-in-loop': 'error'`.
 - Add rule `'capitalized-comments': ['error', 'always']`.
