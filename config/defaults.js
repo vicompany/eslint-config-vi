@@ -4,7 +4,7 @@ module.exports = {
 	},
 	rules: {
 		// Possible Errors
-		'comma-dangle': ['error', 'always-multiline'],
+		'no-await-in-loop': 'error',
 		'no-cond-assign': 'error',
 		'no-console': 'warn',
 		'no-constant-condition': 'error',
@@ -128,6 +128,7 @@ module.exports = {
 		'brace-style': ['error', '1tbs', { allowSingleLine: false }],
 		'camelcase': ['error', { properties: 'always' }],
 		'capitalized-comments': ['error', 'always'],
+		'comma-dangle': ['error', 'always-multiline'],
 		'comma-spacing': ['error', { before: false, after: true }],
 		'comma-style': ['error', 'last'],
 		'computed-property-spacing': ['error', 'never'],
