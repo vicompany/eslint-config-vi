@@ -14,7 +14,7 @@ const people = {
 // Switch cases, fall through and indenting
 switch (doug.language) {
 	case 'JavaScript':
-	// falls through
+	// Falls through
 	case 'Processing':
 		john.party();
 		break;

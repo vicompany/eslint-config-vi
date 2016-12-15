@@ -24,7 +24,7 @@
     "node": ">=4"
   },
   "devDependencies": {
-    "eslint": "^3.10.2",
+    "eslint": "^3.11.1",
     "eslint-find-rules": "^1.14.3"
   },
   "peerDependencies": {
