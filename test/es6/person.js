@@ -11,10 +11,14 @@ class Person {
 
 	party() {
 		if (this.isAllowedToDrink) {
-			return `Whooohoo, where's the ${config.drinks[0]}?!?!`;
+			return Person.cheer();
 		}
 
 		return Person.bummer();
+	}
+
+	static cheer() {
+		return `Whooohoo, where's the ${config.drinks[0]}?!?!`;
 	}
 
 	static bummer() {
@@ -22,7 +26,10 @@ class Person {
 	}
 
 	get isAllowedToDrink() {
-		return this.age >= config['drinking-age'];
+		const { age } = this;
+		const { 'drinking-age': legalAge } = config;
+
+		return age >= legalAge;
 	}
 }
 
