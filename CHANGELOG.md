@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.0 (2017-01-11)
+- ESLint 3.13.1
+- Add rule `prefer-destructuring`.
+
 ## 3.1.1 (2016-12-15)
 - Disable rule `capitalized-comments`.
 
