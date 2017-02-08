@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.0.0 (2017-02-08)
+- ESLint 3.15.0
+- Add rule `'template-tag-spacing': ['error', 'never']`.
+- Add rule `'no-multi-assign': 'error'`.
+- Add rule `'prefer-promise-reject-errors': 'error'`.
+
 ## 4.0.0 (2017-01-11)
 - ESLint 3.13.1
 - Add rule `prefer-destructuring`.
