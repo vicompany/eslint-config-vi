@@ -1,5 +1,8 @@
 # Changelog
 
+## 5.1.0 (2017-02-28)
+- ESLint 3.16.1
+
 ## 5.0.0 (2017-02-08)
 - ESLint 3.15.0
 - Add rule `'template-tag-spacing': ['error', 'never']`.
