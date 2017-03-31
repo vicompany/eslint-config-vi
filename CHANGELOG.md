@@ -1,5 +1,10 @@
 # Changelog
 
+## 6.0.0 (2017-03-31)
+- ESLint 3.18.0
+- Add rule `'no-compare-neg-zero': 'error'`.
+- Add rule `'nonblock-statement-body-position': 'off'`.
+
 ## 5.1.0 (2017-02-28)
 - ESLint 3.16.1
 

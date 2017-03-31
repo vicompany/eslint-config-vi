@@ -5,6 +5,7 @@ module.exports = {
 	rules: {
 		// Possible Errors
 		'no-await-in-loop': 'error',
+		'no-compare-neg-zero': 'error',
 		'no-cond-assign': 'error',
 		'no-console': 'warn',
 		'no-constant-condition': 'error',
@@ -183,6 +184,7 @@ module.exports = {
 		'no-underscore-dangle': ['error', { allowAfterThis: true, allowAfterSuper: true }],
 		'no-unneeded-ternary': 'error',
 		'no-whitespace-before-property': 'error',
+		'nonblock-statement-body-position': 'off',
 		'object-curly-newline': 'off',
 		'object-curly-spacing': ['error', 'always'],
 		'object-property-newline': ['error', { allowMultiplePropertiesPerLine: true }],
