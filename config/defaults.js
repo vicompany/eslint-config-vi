@@ -185,7 +185,7 @@ module.exports = {
 		'no-unneeded-ternary': 'error',
 		'no-whitespace-before-property': 'error',
 		'nonblock-statement-body-position': 'off',
-		'object-curly-newline': 'off',
+		'object-curly-newline': ['error', { consistent: true }],
 		'object-curly-spacing': ['error', 'always'],
 		'object-property-newline': ['error', { allowMultiplePropertiesPerLine: true }],
 		'one-var': ['error', { var: 'always', let: 'never', const: 'never' }],
