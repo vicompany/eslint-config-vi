@@ -1,5 +1,19 @@
 # Changelog
 
+## 7.0.0 (2017-07-12)
+- ESLint 4.2.0
+- Add rule `'array-element-newline': 'off'`.
+- Add rule `'semi-style': ['error', 'last']`.
+- Add rule `padding-line-between-statements`.
+- Add rule `'for-direction': 'error'`.
+- Add rule `'switch-colon-spacing': ['error', { after: true, before: false }]`.
+- Add rule `'array-bracket-newline': 'off'`.
+- Add rule `'no-buffer-constructor': 'error'`.
+- Add rule `'getter-return': 'error'`.
+- Remove deprecated rule `lines-around-directive`.
+- Remove deprecated rule `newline-after-var`.
+- Remove deprecated rule `newline-before-return`.
+
 ## 6.0.0 (2017-03-31)
 - ESLint 3.18.0
 - Add rule `'no-compare-neg-zero': 'error'`.
