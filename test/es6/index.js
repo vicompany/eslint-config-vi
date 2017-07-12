@@ -48,5 +48,11 @@ const t2 = doug.age === 61
 	? 'yes, but I am not sure'
 	: 'no, definitely not';
 
+// Test for the rules 'no-confusing-arrow' and 'no-extra-parens':
+// http://eslint.org/docs/rules/no-extra-parens
+// http://eslint.org/docs/rules/no-confusing-arrow
+const t3 = x => (x ? 'yes' : 'no');
+
 greet(t1);
 greet(t2);
+greet(t3);

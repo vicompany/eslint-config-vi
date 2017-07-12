@@ -1,6 +1,6 @@
 module.exports = {
 	extends: [
-		'./defaults.js'
+		'./defaults.js',
 	].map(require.resolve),
 	rules: {
 		'padded-blocks': 'off',

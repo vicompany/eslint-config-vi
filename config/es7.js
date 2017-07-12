@@ -1,6 +1,6 @@
 module.exports = {
 	extends: [
-		'./defaults.js'
+		'./defaults.js',
 	].map(require.resolve),
 	env: {
 		es6: true,
@@ -10,14 +10,14 @@ module.exports = {
 		sourceType: 'module',
 	},
 	rules: {
-		// ECMAScript 6
+		// ECMAScript >= 6
 		'arrow-body-style': ['error', 'as-needed'],
 		'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
 		'arrow-spacing': ['error', { before: true, after: true }],
 		'constructor-super': 'error',
 		'generator-star-spacing': ['error', 'after'],
 		'no-class-assign': 'error',
-		'no-confusing-arrow': 'error',
+		'no-confusing-arrow': ['error', { allowParens: true }],
 		'no-const-assign': 'error',
 		'no-dupe-class-members': 'error',
 		'no-duplicate-imports': ['error', { includeExports: true }],

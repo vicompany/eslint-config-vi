@@ -1,6 +1,6 @@
 module.exports = {
 	extends: [
-		'./es7.js'
+		'./es7.js',
 	].map(require.resolve),
 	env: {
 		browser: false,
@@ -17,6 +17,7 @@ module.exports = {
 		'callback-return': ['error', ['cb', 'callback', 'next', 'done']],
 		'global-require': 'error',
 		'handle-callback-err': 'error',
+		'no-buffer-constructor': 'error',
 		'no-mixed-requires': 'off',
 		'no-new-require': 'error',
 		'no-path-concat': 'error',
@@ -24,6 +25,6 @@ module.exports = {
 		'no-process-exit': 'error',
 		'no-restricted-modules': 'off',
 		'no-restricted-properties': 'off',
-		'no-sync': 'warn',
+		'no-sync': ['warn', { allowAtRootLevel: false }],
 	},
 };
