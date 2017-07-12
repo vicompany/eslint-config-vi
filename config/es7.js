@@ -10,7 +10,7 @@ module.exports = {
 		sourceType: 'module',
 	},
 	rules: {
-		// ECMAScript 6
+		// ECMAScript >= 6
 		'arrow-body-style': ['error', 'as-needed'],
 		'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
 		'arrow-spacing': ['error', { before: true, after: true }],
