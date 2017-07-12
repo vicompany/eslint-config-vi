@@ -17,7 +17,7 @@ module.exports = {
 		'constructor-super': 'error',
 		'generator-star-spacing': ['error', 'after'],
 		'no-class-assign': 'error',
-		'no-confusing-arrow': 'error',
+		'no-confusing-arrow': ['error', { allowParens: true }],
 		'no-const-assign': 'error',
 		'no-dupe-class-members': 'error',
 		'no-duplicate-imports': ['error', { includeExports: true }],
