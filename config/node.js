@@ -1,6 +1,6 @@
 module.exports = {
 	extends: [
-		'./es7.js',
+		'./esnext.js',
 	].map(require.resolve),
 	env: {
 		browser: false,

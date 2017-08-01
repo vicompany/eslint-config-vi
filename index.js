@@ -1,1 +1,1 @@
-module.exports = require('./config/es7');
+module.exports = require('./config/esnext');
