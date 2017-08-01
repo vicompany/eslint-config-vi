@@ -1,5 +1,8 @@
 # Changelog
 
+## 7.1.0 (2017-08-01)
+- ESLint 4.3.0
+
 ## 7.0.0 (2017-07-12)
 - ESLint 4.2.0
 - Add rule `'array-element-newline': 'off'`.

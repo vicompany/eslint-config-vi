@@ -182,7 +182,7 @@ module.exports = {
 		'no-tabs': 'off',
 		'no-ternary': 'off',
 		'no-trailing-spaces': 'error',
-		'no-underscore-dangle': ['error', { allowAfterThis: true, allowAfterSuper: true }],
+		'no-underscore-dangle': ['error', { allowAfterThis: true, allowAfterSuper: true, enforceInMethodNames: false }],
 		'no-unneeded-ternary': 'error',
 		'no-whitespace-before-property': 'error',
 		'nonblock-statement-body-position': 'off',
