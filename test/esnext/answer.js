@@ -1,9 +1,9 @@
-const answer = (function() {
+const answer = (() => {
 	let value = 41;
 
-	value = value + 1;
+	value += 1;
 
 	return value;
-}());
+})();
 
 export default answer;

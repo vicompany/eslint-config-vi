@@ -59,7 +59,7 @@ const t2 = doug.age === 61
 // http://eslint.org/docs/rules/no-confusing-arrow
 const t3 = x => (x ? 'yes' : 'no');
 
-// Test or the rules 'no-return-assign' and 'no-extra-parens'
+// Test for the rules 'no-return-assign' and 'no-extra-parens'
 // https://eslint.org/docs/rules/no-return-assign
 // http://eslint.org/docs/rules/no-extra-parens
 [1, 2, 3].reduce((sum, i) => (sum += i), 0);
