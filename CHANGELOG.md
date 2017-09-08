@@ -1,5 +1,10 @@
 # Changelog
 
+## 7.3.0 (2017-09-08)
+- ESLint 4.6.1
+- Add rule `'function-paren-newline': ['error', 'multiline']`.
+- Fix conflicting rules `no-return-assign` and `no-extra-parens`.
+
 ## 7.2.0 (2017-08-25)
 - ESLint 4.5.0
 
