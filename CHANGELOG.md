@@ -1,5 +1,8 @@
 # Changelog
 
+## 8.0.0 (2017-09-08)
+- Support ES8 syntax `ecmaVersion: 8`.
+
 ## 7.3.0 (2017-09-08)
 - ESLint 4.6.1
 - Add rule `'function-paren-newline': ['error', 'multiline']`.
