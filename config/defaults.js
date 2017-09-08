@@ -144,6 +144,7 @@ module.exports = {
 		'func-name-matching': ['error', { includeCommonJSModuleExports: false }],
 		'func-names': 'off',
 		'func-style': ['error', 'declaration', { allowArrowFunctions: true }],
+		'function-paren-newline': ['error', 'multiline'],
 		'id-blacklist': 'warn',
 		'id-length': 'off',
 		'id-match': 'off',

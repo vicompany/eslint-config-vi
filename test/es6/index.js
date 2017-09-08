@@ -38,6 +38,12 @@ function greet(say, ...users) {
 
 greet('Hi ', john, doug);
 
+greet(
+	'Yo ',
+	john,
+	doug
+);
+
 const numbers = [1, 5, 8, 3, 2, 7];
 
 Math.max(...numbers);
