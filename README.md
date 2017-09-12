@@ -1,7 +1,6 @@
 # eslint-config-vi
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/vicompany/eslint-config-vi.svg)](https://greenkeeper.io/)
-
 [![npm](https://img.shields.io/npm/v/eslint-config-vi.svg)](https://npm.im/eslint-config-vi)
 [![Build Status](https://travis-ci.org/vicompany/eslint-config-vi.svg?branch=master)](https://travis-ci.org/vicompany/eslint-config-vi)
 
