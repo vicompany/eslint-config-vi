@@ -11,7 +11,7 @@
     "check": "eslint-find-rules -u -n ./node.js",
     "test": "eslint test/**/*.js",
     "preversion": "npm test",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push --follow-tags"
   },
   "author": "VI Company",
   "license": "MIT",
