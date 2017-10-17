@@ -38,3 +38,5 @@ class Person {
 	// eslint-disable-next-line
 	console.log(a, b); // Result: Timeout cannot be negative! Hello, John Doe. How are you doing?
 })();
+
+(async () => 42)();
