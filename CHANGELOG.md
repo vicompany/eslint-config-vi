@@ -1,5 +1,11 @@
 # Changelog
 
+## 8.1.0 (2017-10-17)
+- ESLint 4.9.0
+- Disable rule `require-await`.
+- Add rule `'multiline-comment-style': ['error', 'separate-lines']`.
+- Add rule `'lines-between-class-members': ['error', 'always']`.
+
 ## 8.0.0 (2017-09-08)
 - Support ES8 syntax `ecmaVersion: 8`.
 
