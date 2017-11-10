@@ -1,5 +1,8 @@
 # Changelog
 
+## 8.2.0 (2017-11-10)
+- ESLint 4.10.0
+
 ## 8.1.0 (2017-10-17)
 - ESLint 4.9.0
 - Disable rule `require-await`.
