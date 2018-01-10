@@ -1,5 +1,10 @@
 # Changelog
 
+## 8.3.0 (2018-01-10)
+- ESLint 4.15.0
+- Add rule `'implicit-arrow-linebreak': ['error', 'beside']`.
+- Update rule `'array-callback-return': ['error', { allowImplicit: false }]`.
+
 ## 8.2.0 (2017-11-10)
 - ESLint 4.10.0
 
