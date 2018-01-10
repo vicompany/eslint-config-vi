@@ -148,6 +148,7 @@ module.exports = {
 		'id-blacklist': 'warn',
 		'id-length': 'off',
 		'id-match': 'off',
+		'implicit-arrow-linebreak': ['error', 'beside'],
 		'indent': ['error', 'tab', { SwitchCase: 1 }],
 		'jsx-quotes': ['error', 'prefer-double'],
 		'key-spacing': ['error', { beforeColon: false, afterColon: true }],
