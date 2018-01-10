@@ -40,7 +40,7 @@ module.exports = {
 
 		// Best Practices
 		'accessor-pairs': 'error',
-		'array-callback-return': 'error',
+		'array-callback-return': ['error', { allowImplicit: false }],
 		'block-scoped-var': 'error',
 		'class-methods-use-this': 'warn',
 		'complexity': ['off', 11],
