@@ -1,5 +1,8 @@
 # Changelog
 
+## 8.4.0 (2018-01-31)
+- ESLint 4.15.0
+
 ## 8.3.0 (2018-01-10)
 - ESLint 4.15.0
 - Add rule `'implicit-arrow-linebreak': ['error', 'beside']`.
