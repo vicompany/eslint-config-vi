@@ -1,8 +1,8 @@
 # eslint-config-vi
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/vicompany/eslint-config-vi.svg)](https://greenkeeper.io/)
 [![npm](https://img.shields.io/npm/v/eslint-config-vi.svg)](https://npm.im/eslint-config-vi)
 [![Build Status](https://travis-ci.org/vicompany/eslint-config-vi.svg?branch=master)](https://travis-ci.org/vicompany/eslint-config-vi)
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovateapp.com/)
 
 This package provides a [ESLint shareable config](http://eslint.org/docs/developer-guide/shareable-configs) for the VI Company's JS coding style.
 
