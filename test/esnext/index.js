@@ -41,7 +41,7 @@ greet('Hi ', john, doug);
 greet(
 	'Yo ',
 	john,
-	doug
+	doug, // trailing commas in function paramater lists
 );
 
 const numbers = [1, 5, 8, 3, 2, 7];
@@ -67,3 +67,11 @@ const t3 = x => (x ? 'yes' : 'no');
 greet(t1);
 greet(t2);
 greet(t3);
+
+// Object rest/spread properties
+const a = { a: 1 };
+const b = { b: true };
+const c = { ...a, ...b };
+
+// eslint-disable-next-line
+console.log('c', c);
