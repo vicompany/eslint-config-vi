@@ -1,5 +1,8 @@
 # Changelog
 
+## 8.5.1 (2018-03-08)
+- ESLint 4.18.2
+
 ## 8.5.0 (2018-02-21)
 - ESLint 4.18.1
 - Update `ecmaVersion` to 2018.
