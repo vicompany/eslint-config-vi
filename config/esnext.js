@@ -34,7 +34,6 @@ module.exports = {
 		'prefer-const': ['error', { destructuring: 'any', ignoreReadBeforeAssign: false }],
 		'prefer-destructuring': ['error', { array: true, object: true }, { enforceForRenamedProperties: false }],
 		'prefer-numeric-literals': 'error',
-		'prefer-reflect': 'off',
 		'prefer-rest-params': 'error',
 		'prefer-spread': 'error',
 		'prefer-template': 'error',
