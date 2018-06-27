@@ -159,7 +159,7 @@ module.exports = {
 		'lines-around-comment': 'off',
 		'lines-between-class-members': ['error', 'always'],
 		'max-depth': ['error', 4],
-		'max-len': ['error', 80, 4, { ignoreComments: true, ignoreUrls: true, ignoreStrings: true, ignoreTemplateLiterals: true }],
+		'max-len': ['warning', 100, 4, { ignoreComments: true, ignoreUrls: true, ignoreStrings: true, ignoreTemplateLiterals: true, ignoreRegExpLiterals: true }],
 		'max-lines': 'off',
 		'max-lines-per-function': 'off',
 		'max-nested-callbacks': ['warn', 4],
