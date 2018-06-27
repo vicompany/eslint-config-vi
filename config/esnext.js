@@ -32,7 +32,7 @@ module.exports = {
 		'object-shorthand': ['error', 'always'],
 		'prefer-arrow-callback': 'error',
 		'prefer-const': ['error', { destructuring: 'any', ignoreReadBeforeAssign: false }],
-		'prefer-destructuring': ['error', { array: true, object: true }, { enforceForRenamedProperties: false }],
+		'prefer-destructuring': ['warn', { array: true, object: true }, { enforceForRenamedProperties: false }],
 		'prefer-numeric-literals': 'error',
 		'prefer-rest-params': 'error',
 		'prefer-spread': 'error',
