@@ -9,6 +9,7 @@
   },
   "scripts": {
     "check": "eslint-find-rules -u -n ./node.js",
+    "lint": "eslint config/**/*.js",
     "test": "eslint test/**/*.js",
     "preversion": "npm test",
     "postversion": "git push --follow-tags"
@@ -21,13 +22,13 @@
     "vi-company"
   ],
   "engines": {
-    "node": ">=4"
+    "node": ">=6.14"
   },
   "devDependencies": {
-    "eslint": "4.19.1",
-    "eslint-find-rules": "3.2.3"
+    "eslint": "^5.0.1",
+    "eslint-find-rules": "^3.3.1"
   },
   "peerDependencies": {
-    "eslint": ">=4"
+    "eslint": ">=5"
   }
 }

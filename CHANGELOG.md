@@ -1,5 +1,18 @@
 # Changelog
 
+## 9.0.0 (2018-06-27)
+- ESLint 5.0.1
+- Add rule `'max-classes-per-file': ['error', 1]`.
+- Add rule `'max-lines-per-function': 'off'`.
+- Add rule `'prefer-object-spread': 'error'`.
+- Update rule `'array-element-newline': ['error', 'consistent']`.
+- Update rule `'camelcase': ['error', { properties: 'always', ignoreDestructuring: false }]`.
+- Update rule `'no-self-assign': ['error', { props: true }]`.
+- Update rule `'func-name-matching': ['error', { includeCommonJSModuleExports: false, considerPropertyDescriptor: true }]`.
+- Update rule `'max-len': ['warn', 100, 4, { ignoreComments: true, ignoreUrls: true, ignoreStrings: true, ignoreTemplateLiterals: true, ignoreRegExpLiterals: true }]`.
+- Update rule `'prefer-destructuring': ['warn', { array: true, object: true }, { enforceForRenamedProperties: false }]`.
+- Remove rule `'prefer-reflect': 'off'`.
+
 ## 8.6.0 (2018-05-09)
 - ESLint 4.19.1
 

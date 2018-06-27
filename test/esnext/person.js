@@ -1,9 +1,18 @@
+// Use defaults to test ES2018 object spread
+const defaults = {
+	'drinking-age': 21,
+};
+
 // This config is used to decide if a person is allowed to drink.
 // We use 'separate-lines' for multiline comments
 // Read more at https://eslint.org/docs/rules/multiline-comment-style
 const config = {
-	'drinks': ['beer', 'gin', 'tequila'],
-	'drinking-age': 21,
+	...defaults,
+	drinks: [
+		'beer',
+		'gin',
+		'tequila',
+	],
 };
 
 // The following comments are in JSDoc format
