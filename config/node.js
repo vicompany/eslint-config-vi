@@ -25,6 +25,8 @@ module.exports = {
 		'no-process-exit': 'error',
 		'no-restricted-modules': 'off',
 		'no-restricted-properties': 'off',
-		'no-sync': ['warn', { allowAtRootLevel: false }],
+		'no-sync': ['warn', {
+			allowAtRootLevel: false,
+		}],
 	},
 };

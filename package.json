@@ -9,6 +9,7 @@
   },
   "scripts": {
     "check": "eslint-find-rules -u -n ./node.js",
+    "lint": "eslint config/**/*.js",
     "test": "eslint test/**/*.js",
     "preversion": "npm test",
     "postversion": "git push --follow-tags"
