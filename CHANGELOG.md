@@ -1,5 +1,9 @@
 # Changelog
 
+## 9.1.0 (2018-07-11)
+- ESLint 5.1.0
+- Remove deprecated rule `no-catch-shadow`.
+
 ## 9.0.0 (2018-06-27)
 - ESLint 5.0.1
 - Add rule `'max-classes-per-file': ['error', 1]`.
