@@ -1,5 +1,12 @@
 # Changelog
 
+## 9.2.0 (2018-09-25)
+- ESLint 5.6.0
+- Add rule `'no-misleading-character-class': 'off'`.
+- Add rule `'require-atomic-updates': 'off'`.
+- Add rule `'no-async-promise-executor': 'error'`.
+- Add rule `'require-unicode-regexp': 'off'`.
+
 ## 9.1.0 (2018-07-11)
 - ESLint 5.1.0
 - Remove deprecated rule `no-catch-shadow`.
