@@ -1,6 +1,6 @@
 # Changelog
 
-## 10.0.0 (2018-09-25)
+## 9.2.0 (2018-09-25)
 - ESLint 5.6.0
 - Add rule `'no-misleading-character-class': 'off'`.
 - Add rule `'require-atomic-updates': 'off'`.
