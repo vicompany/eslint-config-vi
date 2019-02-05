@@ -44,7 +44,6 @@ module.exports = {
 		'no-unsafe-negation': 'error',
 		'require-atomic-updates': 'off',
 		'use-isnan': 'error',
-		'valid-jsdoc': 'off',
 		'valid-typeof': 'error',
 
 		// Best Practices
@@ -112,6 +111,7 @@ module.exports = {
 		'no-unused-expressions': 'error',
 		'no-unused-labels': 'error',
 		'no-useless-call': 'error',
+		'no-useless-catch': 'error',
 		'no-useless-concat': 'error',
 		'no-useless-escape': 'error',
 		'no-useless-return': 'error',
@@ -301,7 +301,6 @@ module.exports = {
 		'prefer-object-spread': 'error',
 		'quote-props': ['error', 'consistent-as-needed'],
 		'quotes': ['error', 'single'],
-		'require-jsdoc': 'off',
 		'semi': ['error', 'always'],
 		'semi-spacing': 'error',
 		'semi-style': ['error', 'last'],
