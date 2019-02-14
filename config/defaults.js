@@ -10,7 +10,9 @@ module.exports = {
 		'no-await-in-loop': 'error',
 		'no-compare-neg-zero': 'error',
 		'no-cond-assign': 'error',
-		'no-console': 'warn',
+		'no-console': ['warn', {
+			allow: ['warn', 'error'],
+		}],
 		'no-constant-condition': 'error',
 		'no-control-regex': 'error',
 		'no-debugger': 'warn',
