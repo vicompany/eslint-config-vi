@@ -1,7 +1,7 @@
 # Changelog
 
 ## 9.4.0 (2019-02-05)
-- ESLint 5.13.0
+- ESLint 5.14.1
 - Update rule `['warn', { allow: ['warn', 'error'] }]`
 
 ## 9.3.0 (2019-02-05)
