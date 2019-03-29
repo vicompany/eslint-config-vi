@@ -1,8 +1,12 @@
 # Changelog
 
+## 9.5.0 (2019-03-29)
+- ESLint 5.15.3
+- Add rule `'prefer-named-capture-group': 'error'`
+
 ## 9.4.0 (2019-02-05)
 - ESLint 5.14.1
-- Update rule `['warn', { allow: ['warn', 'error'] }]`
+- Update rule `'no-console': ['warn', { allow: ['warn', 'error'] }]`
 
 ## 9.3.0 (2019-02-05)
 - ESLint 5.13.0
