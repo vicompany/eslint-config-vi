@@ -73,5 +73,13 @@ const a = { a: 1 };
 const b = { b: true };
 const c = { ...a, ...b };
 
-// eslint-disable-next-line
+// eslint-disable-next-line no-console
 console.log('c', c);
+
+// Test for the rule 'prefer-named-capture-group'
+// https://eslint.org/docs/rules/prefer-named-capture-group
+const pattern = /(?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2})/u;
+const { groups: { year, month, day } } = pattern.exec('2017-01-25');
+
+// eslint-disable-next-line no-console
+console.log('date', year, month, day);
