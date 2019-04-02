@@ -1,5 +1,8 @@
 # Changelog
 
+## 9.6.0 (2019-04-02)
+- ESLint 5.16.0
+
 ## 9.5.0 (2019-03-29)
 - ESLint 5.15.3
 - Add rule `'prefer-named-capture-group': 'error'`
