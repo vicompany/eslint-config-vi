@@ -22,7 +22,7 @@
     "vi-company"
   ],
   "engines": {
-    "node": ">=6.14"
+    "node": ">=8.10"
   },
   "devDependencies": {
     "eslint": "6.0.1",
