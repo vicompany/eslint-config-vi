@@ -1,6 +1,6 @@
 module.exports = {
 	extends: [
-		'../../index.js'
+		'../index.js'
 	].map(require.resolve),
 	root: true
 };
