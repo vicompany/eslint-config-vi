@@ -1,5 +1,9 @@
 # Changelog
 
+## 10.0.0 (2019-06-26)
+- ESLint 6.0.1
+- Remove `vi/legacy` config.
+
 ## 9.6.0 (2019-04-02)
 - ESLint 5.16.0
 
