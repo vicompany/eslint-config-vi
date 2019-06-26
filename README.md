@@ -8,7 +8,7 @@ This package provides a [ESLint shareable config](http://eslint.org/docs/develop
 
 ## Why another config?
 
-We love the [Airbnb config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb), but we don't agree on everything and it's easier to maintain our own config.
+We love the [Airbnb config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb), but we don't agree on everything and it's faster and easier to maintain our own config.
 
 ## Installation
 
@@ -34,39 +34,19 @@ module.exports = {
 }
 ```
 
-Or add the ESLint config to your `package.json`:
-
-```json
-{
-  "name": "my-awesome-project",
-  "eslintConfig": {
-    "extends": "vi"
-  }
-}
-```
-
 ## Configuration
 
-The default configuration supports ES2015 (ES6) code.
-
-### Legacy code
-
-If you need to support legacy code, you can use the [`vi/legacy`](legacy.js) config:
-
-```json
-{
-  "extends": "vi/legacy"
-}
-```
+The default [`vi`](config/esnext.js) config supports ES2015+ code and targets the browser.
 
 ### Node.js
 
-For Node.js development you can use the [`vi/node`](node.js) config:
+For Node.js development you can use the [`vi/node`](config/node.js) config:
 
-```json
-{
-  "extends": "vi/node"
-}
+### .eslintrc.js
+```js
+module.exports = {
+  extends: 'vi/node'
+};
 ```
 
 ## Changelog
