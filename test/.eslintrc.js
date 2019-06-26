@@ -1,6 +1,6 @@
 module.exports = {
 	extends: [
-		'../../legacy.js'
+		'../index.js'
 	].map(require.resolve),
 	root: true
 };
