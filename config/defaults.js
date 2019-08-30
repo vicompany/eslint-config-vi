@@ -178,6 +178,7 @@ module.exports = {
 		'func-style': ['error', 'declaration', {
 			allowArrowFunctions: true,
 		}],
+		'function-call-argument-newline': ['error', 'consistent'],
 		'function-paren-newline': ['error', 'multiline'],
 		'id-blacklist': 'warn',
 		'id-length': 'off',

@@ -83,3 +83,11 @@ const { groups: { year, month, day } } = pattern.exec('2017-01-25');
 
 // eslint-disable-next-line no-console
 console.log('date', year, month, day);
+
+// Dynamic imports
+import('./answer.js')
+	.then(r => console.log(`The answer is: ${r()}`)); // eslint-disable-line no-console
+
+// BigInt
+// eslint-disable-next-line no-console
+console.log(typeof 123n === 'bigint');

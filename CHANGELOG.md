@@ -1,5 +1,10 @@
 # Changelog
 
+## 10.2.0 (2019-08-30)
+- ESLint 6.2.2
+- Add rule `'function-call-argument-newline': ['error', 'consistent']`
+- Update `ecmaVersion` to `2020`.
+
 ## 10.1.0 (2019-07-25)
 - ESLint 6.1.0
 
@@ -56,7 +61,7 @@
 
 ## 8.5.0 (2018-02-21)
 - ESLint 4.18.1
-- Update `ecmaVersion` to 2018.
+- Update `ecmaVersion` to `2018`.
 
 ## 8.4.0 (2018-01-31)
 - ESLint 4.16.0
