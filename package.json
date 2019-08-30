@@ -29,6 +29,6 @@
     "eslint-find-rules": "3.4.0"
   },
   "peerDependencies": {
-    "eslint": ">=5"
+    "eslint": ">=6.2"
   }
 }
