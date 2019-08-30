@@ -1,5 +1,8 @@
 # Changelog
 
+## 10.3.0 (2019-08-30)
+- Update rule `'prefer-named-capture-group': 'warning'`
+
 ## 10.2.0 (2019-08-30)
 - ESLint 6.2.2
 - Add rule `'function-call-argument-newline': ['error', 'consistent']`
