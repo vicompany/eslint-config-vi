@@ -1,5 +1,11 @@
 # Changelog
 
+## 10.4.0 (2019-09-17)
+- ESLint 6.4.0
+- Add rule `'no-import-assign': 'error'`
+- Add rule `'prefer-regex-literals': 'error'`
+- Add rule `'default-param-last': 'error'`
+
 ## 10.3.0 (2019-08-30)
 - Update rule `'prefer-named-capture-group': 'warning'`
 
