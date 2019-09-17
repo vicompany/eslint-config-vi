@@ -32,6 +32,7 @@ module.exports = {
 		}],
 		'no-extra-semi': 'error',
 		'no-func-assign': 'error',
+		'no-import-assign': 'error',
 		'no-inner-declarations': 'error',
 		'no-invalid-regexp': 'error',
 		'no-irregular-whitespace': 'error',
@@ -59,6 +60,7 @@ module.exports = {
 		'consistent-return': 'error',
 		'curly': 'error',
 		'default-case': 'error',
+		'default-param-last': 'error',
 		'dot-notation': ['error', {
 			allowKeywords: true,
 		}],
@@ -122,6 +124,7 @@ module.exports = {
 		'no-with': 'error',
 		'prefer-named-capture-group': 'warn',
 		'prefer-promise-reject-errors': 'error',
+		'prefer-regex-literals': 'error',
 		'radix': 'error',
 		'require-await': 'off',
 		'require-unicode-regexp': 'off',
