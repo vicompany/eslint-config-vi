@@ -1,5 +1,8 @@
 # Changelog
 
+## 10.5.0 (2019-10-02)
+- ESLint 6.5.1
+
 ## 10.4.0 (2019-09-17)
 - ESLint 6.4.0
 - Add rule `'no-import-assign': 'error'`
