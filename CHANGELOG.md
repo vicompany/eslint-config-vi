@@ -1,5 +1,13 @@
 # Changelog
 
+## 10.7.0 (2019-11-28)
+- ESLint 6.7.1
+- Add rule `'grouped-accessor-pairs': ['error', 'getBeforeSet']`
+- Add rule `'no-constructor-return': 'error'`
+- Add rule `'no-dupe-else-if': 'error'`
+- Add rule `'no-setter-return': 'error'`
+- Add rule `'prefer-exponentiation-operator': 'error'`
+
 ## 10.6.0 (2019-10-29)
 - ESLint 6.6.0
 
