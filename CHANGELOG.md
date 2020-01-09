@@ -1,5 +1,9 @@
 # Changelog
 
+## 10.8.0 (2020-01-09)
+- ESLint 6.8.0
+- Test on Node.js latest stable and LTS
+
 ## 10.7.0 (2019-11-28)
 - ESLint 6.7.1
 - Add rule `'grouped-accessor-pairs': ['error', 'getBeforeSet']`
