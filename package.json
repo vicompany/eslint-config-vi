@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-vi",
+  "name": "eslint-config-vi-test",
   "version": "10.8.0",
   "description": "ESLint shareable config used by VI Company",
   "main": "index.js",
@@ -24,11 +24,13 @@
   "engines": {
     "node": ">=8.10"
   },
-  "devDependencies": {
-    "eslint": "6.8.0",
-    "eslint-find-rules": "3.4.0"
-  },
   "peerDependencies": {
-    "eslint": ">=6.2"
+    "eslint-config-airbnb-base": ">= 14.2.1",
+    "eslint": ">=7.20.0"
+  },
+  "devDependencies": {
+    "eslint": "7.20.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "2.22.1"
   }
 }

@@ -1,1 +1,5 @@
-module.exports = require('./config/esnext');
+module.exports = {
+	extends: [
+		'./config/base.js',
+	].map(require.resolve),
+};
