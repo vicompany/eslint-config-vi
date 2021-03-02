@@ -4,17 +4,18 @@
 [![Build Status](https://travis-ci.org/vicompany/eslint-config-vi.svg?branch=master)](https://travis-ci.org/vicompany/eslint-config-vi)
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovateapp.com/)
 
-This package provides a [ESLint shareable config](http://eslint.org/docs/developer-guide/shareable-configs) for the VI Company's JS coding style.
+This package provides an ESLint config for the VI Company's JS coding style.
 
 ## Why another config?
 
-We love the [Airbnb config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb), but we don't agree on everything and it's faster and easier to maintain our own config.
-
+The `eslint-config-vi` is based on the [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base) config. That config is well maintained and we agree with most of the rules set. We extend the `eslint-config-airbnb-base` with our own rules.  
+The `eslint-config-airbnb-base` is defined as a peerDependency so it should be installed separately.
 ## Installation
 
-To make use of this config, install ESLint and this package as a development dependency of your project:
+To make use of this config, install this package and its peerDepencies as a development dependencies of your project. `eslint-config-airbnb-base` also makes use of peerDependencies which also needs to be installed:
 
-    npm install eslint eslint-config-vi --save-dev
+    npx install-peerdeps eslint-config-vi
+    npx install-peerdeps eslint-config-airbnb-base -o
 
 ## Usage
 
@@ -40,12 +41,12 @@ The default [`vi`](config/esnext.js) config supports ES2015+ code and targets th
 
 ### Node.js
 
-For Node.js development you can use the [`vi/node`](config/node.js) config:
+For Node.js development you can use the [`eslint-config-vi/node`](./node.js) config:
 
 ### .eslintrc.js
 ```js
 module.exports = {
-  extends: 'vi/node'
+  extends: 'eslint-config-vi/node'
 };
 ```
 
