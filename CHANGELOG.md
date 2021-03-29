@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.0.0 (2021-03-02)
+- The config is now based on [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
+- Extending with our own overrides
+
 ## 10.8.0 (2020-01-09)
 - ESLint 6.8.0
 - Test on Node.js latest stable and LTS

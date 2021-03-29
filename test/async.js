@@ -27,7 +27,7 @@ class Person {
 	}
 }
 
-(async () => {
+(async() => {
 	const pete = new Person('Pete', -10);
 
 	const [a, b] = await Promise.all([
@@ -39,4 +39,4 @@ class Person {
 	console.log(a, b); // Result: Timeout cannot be negative! Hello, John Doe. How are you doing?
 })();
 
-(async () => 42)();
+(async() => 42)();
