@@ -13,12 +13,12 @@ const people = {
 
 // Switch cases, fall through and indenting
 switch (doug.language) {
-  'JavaScript':
+	case 'JavaScript':
 	// Falls through
-  case 'Processing':
+	case 'Processing':
 		john.party();
 		break;
-  default:
+	default:
 		john.bummer();
 }
 
